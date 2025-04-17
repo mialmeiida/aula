@@ -6,3 +6,10 @@ function adicionarValor(valor) {
 function limpar() {
     display.value = "";
 }
+function calcular() {
+    try {
+        display.value = eval(display.value);
+    } catch {
+        display.value = "Erro";
+    }
+}
