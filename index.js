@@ -12,4 +12,5 @@ function calcular() {
     } catch {
         display.value = "Erro";
     }
+  display.value = "";
 }
